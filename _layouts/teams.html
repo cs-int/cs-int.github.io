@@ -57,9 +57,13 @@ bodyClass: "page-teams"
                     <div class="team-contact">
                         {% if team.email %}
                         <p><i class="bi-envelope"></i> <a href="mailto:{{ team.email }}">{{ team.email }}</a></p>
+                        {% else %}
+                        <br>
                         {% endif %}
                         {% if team.number %}
                         <p><i class="bi-telephone"></i> {{ team.number }}</p>
+                        {% else %}
+                        <br>
                         {% endif %}
                     </div>
                     <div class="team-content">

@@ -1,11 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>logo-mobile</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="logo-mobile">
-            <rect id="Rectangle-6" stroke="#E5261F" stroke-width="4" fill-rule="nonzero" x="2" y="2" width="50" height="50"></rect>
-            <path id="." fill="#E5261F" d="M34.402,41.895 C33.9259976,41.3769974 33.688,40.7400038 33.688,39.984 C33.688,39.2279962 33.9329975,38.5840027 34.423,38.052 C34.9130025,37.5199973 35.4939966,37.254 36.166,37.254 C36.8660035,37.254 37.4469977,37.5199973 37.909,38.052 C38.3710023,38.5840027 38.602,39.2279962 38.602,39.984 C38.602,40.7400038 38.3570024,41.3769974 37.867,41.895 C37.3769975,42.4130026 36.7960034,42.672 36.124,42.672 C35.4519966,42.672 34.8780024,42.4130026 34.402,41.895 Z"></path>
-            <path id="S" fill="#E5261F" fill-rule="nonzero" d="M20.718,42.588 C22.342,42.588 23.826,42.294 25.17,41.706 C26.514,41.118 27.592,40.236 28.404,39.06 C29.216,37.884 29.622,36.4 29.622,34.608 C29.622,33.096 29.293,31.808 28.635,30.744 C27.977,29.68 27.081,28.707 25.947,27.825 C24.813,26.943 23.518,26.054 22.062,25.158 C20.802,24.374 19.633,23.639 18.555,22.953 C17.477,22.267 16.616,21.497 15.972,20.643 C15.328,19.789 15.006,18.732 15.006,17.472 C15.006,16.016 15.489,14.84 16.455,13.944 C17.421,13.048 18.646,12.6 20.13,12.6 C21.698,12.6 22.965,12.992 23.931,13.776 C24.897,14.56 25.632,15.568 26.136,16.8 C26.64,18.032 26.934,19.32 27.018,20.664 L27.018,20.664 L27.984,20.664 C27.984,18.9 27.991,17.479 28.005,16.401 C28.019,15.323 28.047,14.455 28.089,13.797 C28.131,13.139 28.166,12.572 28.194,12.096 L28.194,12.096 L27.228,12.096 C27.06,13.328 26.752,13.944 26.304,13.944 C26.108,13.944 25.905,13.895 25.695,13.797 C25.485,13.699 25.212,13.552 24.876,13.356 C24.316,12.964 23.672,12.607 22.944,12.285 C22.216,11.963 21.152,11.802 19.752,11.802 C18.38,11.802 17.092,12.061 15.888,12.579 C14.684,13.097 13.711,13.895 12.969,14.973 C12.227,16.051 11.856,17.416 11.856,19.068 C11.856,20.636 12.199,21.973 12.885,23.079 C13.571,24.185 14.488,25.158 15.636,25.998 C16.784,26.838 18.016,27.664 19.332,28.476 C21.292,29.652 22.874,30.8 24.078,31.92 C25.282,33.04 25.884,34.454 25.884,36.162 C25.884,38.122 25.317,39.543 24.183,40.425 C23.049,41.307 21.796,41.748 20.424,41.748 C18.632,41.748 17.197,41.307 16.119,40.425 C15.041,39.543 14.243,38.374 13.725,36.918 C13.207,35.462 12.892,33.894 12.78,32.214 L12.78,32.214 L11.814,32.214 C11.814,34.174 11.807,35.798 11.793,37.086 C11.779,38.374 11.765,39.417 11.751,40.215 C11.737,41.013 11.702,41.706 11.646,42.294 L11.646,42.294 L12.612,42.294 C12.78,41.062 13.088,40.446 13.536,40.446 C13.872,40.446 14.348,40.642 14.964,41.034 C15.58,41.398 16.322,41.748 17.19,42.084 C18.058,42.42 19.234,42.588 20.718,42.588 Z"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="230"
+   height="230"
+   viewBox="0 0 230 230"
+   sodipodi:docname="logo-mobile.png"
+   inkscape:export-filename="logo-mobile.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="230"
+       height="230"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <image
+       width="226.50484"
+       height="192.89104"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       xlink:href="data:image/png;base64,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&#10;WlpaWqafUmsA5c8yx/ME5FkAAAAASUVORK5CYII=&#10;"
+       id="image1"
+       x="1.940678"
+       y="18.297821" />
+  </g>
 </svg>

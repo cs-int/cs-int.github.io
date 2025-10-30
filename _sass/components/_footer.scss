@@ -13,6 +13,17 @@
       align-items: center;
     }
   }
+  .copyright {
+    margin-top: 12px;
+    display: flex;
+    align-items: center; // Align items vertically
+    justify-content: center; // Center the copyright statement
+    p {
+      font-weight: normal;
+      color: $footer-text-color;
+      font-size: 0.8rem;
+    }
+  }
   .footer-title {
     color: #ffffff;
     font-size: 1.3rem;
@@ -25,40 +36,42 @@
   }
   ul {
     list-style: none;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
+    display: flex; // Ensure the list is displayed as a flex container
+    align-items: center; // Align items vertically
     li {
       color: $footer-text-color;
       font-size: 1rem;
       a {
         color: $footer-text-color;
         text-decoration: none;
-        padding: 12px 14px 12px 0;
+        
         display: block;
         &:hover {
           text-decoration: underline;
         }
       }
     }
-    @include media-breakpoint-up(sm) {
-      height: inherit;
-      display: flex;
+  }
+  @include media-breakpoint-up(sm) {
+    height: inherit;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-end;
+    li {
       list-style: none;
-      margin: 0;
-      padding: 0;
-      align-items: center;
-      justify-content: flex-end;
-      li {
-        list-style: none;
-        margin-right: 10px;
-        &:last-of-type {
-          margin-right: 0;
-        }
-        a {
-          display: inline-block;
-          height: 40px;
-          padding: 10px 8px 10px 8px;
-        }
+      margin-right: 10px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+      a {
+        display: inline-block;
+        height: 40px;
+        padding: 10px 8px 10px 8px;
       }
     }
   }
