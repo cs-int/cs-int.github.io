@@ -1,28 +1,41 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Coast To Coast Claims Member Firm",
+    "description": "Through our affiliation with Coast to Coast Claims, we tap into a national network of independent adjusting experts to bring you seamless service across Canada.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
+      "url": "images/features/coast-to-coast-claims.png",
+      "link": "https://coasttocoastclaims.com/find-a-member-firm/",
+      "width": 376,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Virtual Claims Adjuster",
+    "description": "We utilize Virtual Claims Adjuster, a robust and data secure, cloud-based claims management technology to optimize efficiency and to provide seamless service for all of our clients.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
+      "url": "images/features/vca.png",
+      "link": "http://www.virtualclaimsadjuster.com/",
+      "width": 376,
       "height": 80
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Insurance Insitute",
+    "description": "As members of the Insurance Institute of Canada community, we bring accredited professionalism and trusted expertise to every claim.",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
-      "width": 80,
+      "url": "images/features/insurance-institute.jpg",
+      "link": "https://www.insuranceinstitute.ca",
+      "width": 376,
+      "height": 80
+    }
+  },
+  {
+    "title": "OIAA",
+    "description": "As proud members of the Ontario Insurance Adjusters Association, we actively engage with peers to advance standards and share expertise across the claims community.",
+    "image": {
+      "url": "images/features/oiaa.png",
+      "link": "https://oiaa.com",
+      "width": 376,
       "height": 80
     }
   }

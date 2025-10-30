@@ -10,6 +10,7 @@ show_call_box: true
 
 # The Calm After The Storm™
 
-Claims Services International Ltd. is driven to achieve results.
-Analysis, solutions and excellence through execution.
-We get it done.
+Claims Services International Ltd. is driven to achieve results.  
+
+
+Analysis, solutions and excellence through execution -- We get it done.

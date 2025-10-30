@@ -52,12 +52,11 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
 
       {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
         <div class="feature">
           {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+            <div class="feature-image"><a href="{{ feature.image.link }}"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></a></div>
           {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
           <div class="feature-content">{{ feature.description }}</div>
         </div>
       </div>

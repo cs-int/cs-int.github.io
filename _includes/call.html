@@ -1,12 +1,15 @@
 <div class="call">
   <div class="call-box-top">
-    {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+    {% for number in site.data.contact.phone %}
+      <div class="call-phone"><i class="bi-telephone"></i>  {{ number }} </div>
+    {% endfor %}
+    {% if site.data.contact.afterhours %}
+    <div class="call-phone"><i class="bi-moon-stars"></i>  {{ site.data.contact.afterhours }} </div>
     {% endif %}
     {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email: </strong>
+    <div class="call-email"><i class="bi-envelope"></i> 
       <a href="mailto:{{ .site.data.contact.email }}">
-        {{ site.data.contact.email }}
+         {{ site.data.contact.email }}
       </a>
     </div>
     {% endif %}
