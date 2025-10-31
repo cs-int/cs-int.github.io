@@ -1,0 +1,12 @@
+offices:
+  - name: 'Hamilton - Head Office'
+    phone: '905 529 1900'
+    fax: '905 529 8401'
+    address: '67 Frid Street Unit 3, Hamilton, ON <br> L8P 4M3'
+    map_url: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5811.321535025728!2d-79.892763!3d43.258531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c9b663ff47ab3%3A0x18d90b5a9b6d2190!2s67%20Frid%20St%20unit%203%2C%20Hamilton%2C%20ON%20L8P%204M3!5e0!3m2!1sen!2sca!4v1761829277052!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  - name: 'Mississauga / GTA'
+    phone: '905 212 9925'
+    fax: '905 529 9961'
+    address: '5659 McAdam Road Unit C3 Mississauga, ON <br> L4Z 1N9'
+    map_url: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5776.238777817248!2d-79.665151!3d43.624874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b40a6e584b907%3A0x24e38b3d5cd2972e!2s5659%20McAdam%20Rd%20c3%2C%20Mississauga%2C%20ON%20L4Z%201N9%2C%20Canada!5e0!3m2!1sen!2sus!4v1761829248522!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+

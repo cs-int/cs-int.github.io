@@ -1,0 +1,49 @@
+.main-menu {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    > li {
+      list-style: none;
+      font-size: 1rem;
+      > a {
+        padding: 10px 12px 10px 12px;
+        display: inline-block;
+        font-weight: normal;
+        text-decoration: none;
+        color: $primary;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &.active {
+        > a {
+          font-weight: bold;
+          text-decoration: none;
+          &:hover {
+            text-decoration: none;
+            transition: all 225ms ease-in 0s;
+          }
+        }
+      }
+      // Add specific styles for the "Login" or similar button
+      &.menu-button {
+        > a {
+          background-color: $primary; // Use the primary color for the button background
+          color: #ffffff; // Set the text color to white
+          border-radius: 4px; // Optional: Add rounded corners
+          padding: 8px 16px; // Adjust padding for better spacing
+          text-align: center; // Center the text
+          &:hover {
+            background-color: darken($primary, 10%); // Darken the background on hover
+            color: #ffffff; // Ensure the text color remains readable
+          }
+        }
+      }
+    }
+  }
+}
