@@ -25,3 +25,22 @@
     }
   }
 }
+.header-text {
+  text-align: left; // Ensure all text is left-aligned
+  margin: 0; // Remove any default margins
+  padding: 0; // Remove any default padding
+  h1 {
+    text-transform: uppercase;
+    font-size: 1.5em; // Adjust the size as needed
+    color: $primary;
+    margin-bottom: 0.2em; // Reduce the bottom margin
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 1em; // Adjust the size as needed
+    display: block; // Ensures it appears on a new line under the <meta> tag
+    color: $secondary;
+    margin-top: 0; // Remove any top margin
+  }
+}
