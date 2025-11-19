@@ -3,12 +3,16 @@
 
 // Colors
 $primary: #0968ab;
-$primary-dark: #54b9f8;
+$primary-light: #54b9f8;
+$primary-dark: darken($primary-light, 30%);
 $secondary: #f69132;
+$secondary-light: lighten($secondary, 20%);
+$secondary-lightest: lighten($secondary, 40%);
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #d1e6f6;
 $steel: #5c5a5a;
+$feature-background-color: $secondary-lightest;
 
 // Links
 $link-color: $primary;

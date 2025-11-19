@@ -2,14 +2,14 @@
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap to the next row if needed */
   gap: 10px; /* Adds spacing between office blocks */
-  justify-content: space-evenly; /* Spreads items evenly with equal space around them */
+  justify-content: flex-start; /* Spreads items evenly with equal space around them */
 }
 
 .office {
   flex: 0 1 calc(35% - 10px); /* Adjusted to account for border and gap */
   box-sizing: border-box; /* Ensures padding and border are included in width */
   padding: 10px;
-  border: 1px solid #0e0d0d; /* Optional: Add a border for better visibility */
+  border: none 1px solid #0e0d0d; /* Optional: Add a border for better visibility */
   border-radius: 5px; /* Optional: Add rounded corners */
 }
 

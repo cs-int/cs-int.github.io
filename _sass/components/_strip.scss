@@ -25,8 +25,17 @@
 .strip-primary {
   background-color: $primary;
 }
+.strip-primary-light {
+  background-color: $primary-light;
+}
 .strip-secondary {
   background-color: $secondary;
+}
+.strip-secondary-light {
+  background-color: $secondary-light;
+}
+.strip-feature-background {
+  background-color: $feature-background-color;
 }
 
 .strip-diagonal-right {

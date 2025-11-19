@@ -1,7 +1,7 @@
 ---
-title: Jekyll Serif Theme
+title: Claim Services International
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: The Calm After The Storm™
 intro_image: "images/logo/logo-large.png"
 intro_image_absolute: false
 intro_image_hide_on_mobile: true

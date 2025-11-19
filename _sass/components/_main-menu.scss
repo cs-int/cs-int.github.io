@@ -33,14 +33,14 @@
       // Add specific styles for the "Login" or similar button
       &.menu-button {
         > a {
-          background-color: $primary; // Use the primary color for the button background
+          background-color: $secondary; // Use the primary color for the button background
           color: #ffffff; // Set the text color to white
           border-radius: 4px; // Optional: Add rounded corners
           padding: 8px 16px; // Adjust padding for better spacing
           text-align: center; // Center the text
           &:hover {
-            background-color: darken($primary, 10%); // Darken the background on hover
-            color: #ffffff; // Ensure the text color remains readable
+            background-color: $primary; // Darken the background on hover
+            color: $secondary-lightest; // Ensure the text color remains readable
           }
         }
       }
