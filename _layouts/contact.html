@@ -3,19 +3,18 @@ title: Contact
 layout: default
 bodyClass: "page-contact"
 ---
-
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+<div class="container pb-6 pt-6 pt-md-6 pb-md-6">
     <div class="row justify-content-start">
-        
+        <h1 class="title">{{page.title}}</h1>
             <div class="service service-single col-12 col-md-12">
-                <h1 class="title">{{page.title}}</h1>
-                <div class="content mt-4">{{content}}</div>
+
+                <div class="content">{{content}}</div>
                 {% assign offices = site.data.offices.offices %}
                 <div class="row">
                 <div class="offices-container">
                 
                         {% for office in offices %}
-                        <div class="office col-12 col-md-8 mb-4"> <!-- Changed to col-md-6 for wider columns -->
+                        <div class="office col-12 col-md-8 mb-4"> 
                             <h2>{{ office.name }}</h2>
                             <p><i class="bi bi-geo-alt"></i> {{ office.address }}</p>
                             <p><i class="bi bi-telephone"></i> {{ office.phone }}</p>
@@ -25,7 +24,10 @@ bodyClass: "page-contact"
                         {% endfor %}
                     </div>
                 </div>
-            
+                 <div class="col-12 col-md-8 mb-4"> 
+                {% include contactform.html %}
+                </div>
+            </div>
         </div>
     </div>
 </div>

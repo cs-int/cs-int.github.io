@@ -2,14 +2,14 @@
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap to the next row if needed */
   gap: 10px; /* Adds spacing between office blocks */
-  justify-content: space-evenly; /* Spreads items evenly with equal space around them */
+  justify-content: flex-start; /* Spreads items evenly with equal space around them */
 }
 
 .office {
   flex: 0 1 calc(35% - 10px); /* Adjusted to account for border and gap */
   box-sizing: border-box; /* Ensures padding and border are included in width */
   padding: 10px;
-  border: 1px solid #0e0d0d; /* Optional: Add a border for better visibility */
+  border: none 1px solid #0e0d0d; /* Optional: Add a border for better visibility */
   border-radius: 5px; /* Optional: Add rounded corners */
 }
 
@@ -22,5 +22,51 @@
 @media (max-width: 480px) {
   .office {
     flex: 0 1 calc(100% - 20px); /* Stack items vertically on very small screens */
+  }
+}
+
+// New: tighter contact form and responsive 3-column layout for name/email/phone
+#contactForm {
+  /* reduce vertical spacing */
+  .mb-3 {
+    margin-bottom: 0.5rem;
+    margin-bottom: 0.35rem; /* tightened globally */
+  }
+
+  .form-label {
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+  }
+
+  .form-control {
+    padding:  0.5rem; /* tighter inputs */
+  }
+
+  .form-text {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+  }
+
+  button.button {
+    margin-top: 0.5rem;
+     align-self: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    row-gap: 0.02rem;
+
+    /* default: each .mb-3 takes full width, override for first 3 fields */
+    .mb-3 { flex: 0 0 100%; }
+
+    /* put Name, Email, Phone on one row when there's space */
+    .mb-3:nth-of-type(1),
+    .mb-3:nth-of-type(2),
+    .mb-3:nth-of-type(3) {
+      /* subtract total gaps between three items (gap * 2) */
+      flex: 0 0 calc((100% - 2rem) / 3);
+    }
   }
 }
