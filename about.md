@@ -7,7 +7,7 @@ bodyClass: page-about
 
 For over fifteen years, Claims Services International has been handling insurance claims with a level of expertise and commitment that is unrivalled in the industry.
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+![About Us](/images/illustrations/atDesk.png)
 
 We utilize Virtual Claims Adjuster, a robust and data secure, cloud-based claims management technology to optimize efficiency and to provide seamless service for all of our clients.
 With a team of dedicated experts, CSI has established a reputation as an industry leader in providing timely solutions to our clients, no matter how complex the claim.
